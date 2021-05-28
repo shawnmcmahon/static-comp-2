@@ -57,7 +57,7 @@ section {
   outline: none;
 }
 
-.streamer-name {
+.artist-name {
   font-size: 16px;
   padding-left: 10px;
   padding-top: 10px;
@@ -70,15 +70,15 @@ section {
   padding-left: 10px;
 }
 
-.most-played-game,
-.sub {
+.hot-song,
+.artist-100 {
   font-size: 12px;
   padding-left: 10px;
   padding-top: 10px;
   margin-bottom: 0px;
 }
 
-.sub-count {
+.artist-100-count{
   color: #F50A17;
   font-size: 24px;
   margin-top: 0px;
@@ -86,7 +86,7 @@ section {
   padding-left: 10px;
 }
 
-.game-name {
+.hot-song-count {
   font-size: 16px;
   margin-top: 0px;
   padding-left: 10px;
@@ -195,7 +195,7 @@ section {
   width: 150px;
 }
 
-.streamers {
+.billboard-label {
   color: gray;
   flex-direction: column;
   font-size: 36px;
@@ -324,7 +324,7 @@ section {
   outline: none;
 }
 
-.streamer-name {
+.artist-name {
   font-size: 16px;
   padding-left: 10px;
   padding-top: 10px;
@@ -337,15 +337,15 @@ section {
   padding-left: 10px;
 }
 
-.most-played-game,
-.sub {
+.hot-song,
+.artist-100 {
   font-size: 12px;
   margin-bottom: 0px;
   padding-left: 10px;
   padding-top: 10px;
 }
 
-.sub-count {
+.artist-100-count {
   color: #F50A17;
   font-size: 24px;
   margin-top: 0px;
@@ -353,7 +353,7 @@ section {
   padding-left: 10px;
 }
 
-.game-name {
+.hot-song-count {
   font-size: 16px;
   margin-top: 0px;
   padding-left: 10px;
@@ -456,7 +456,7 @@ section {
   width: 50px;
 }
 
-.streamers {
+.billboard-label {
   color: gray;
   font-size: 22px;
   padding-top: 20px;
