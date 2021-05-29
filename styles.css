@@ -57,6 +57,12 @@ section {
   outline: none;
 }
 
+.logo-image {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
 .artist-name {
   font-size: 16px;
   padding-left: 10px;
@@ -213,6 +219,7 @@ section {
   height: 30px;
   margin: 5px;
   width: 200px;
+  padding-left: 80px;
 }
 
 .url {
@@ -322,6 +329,13 @@ section {
   flex-direction: column;
   justify-content: center;
   outline: none;
+}
+
+
+.logo-image {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
 }
 
 .artist-name {
@@ -471,6 +485,7 @@ section {
   height: 30px;
   margin: 5px;
   width: 200px;
+  padding-left: 80px;
 }
 
 .url {
