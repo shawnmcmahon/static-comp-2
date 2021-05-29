@@ -478,51 +478,42 @@ section {
   padding-top: 3px;
 }
 
-.ninja {
+.drake {
   background-image: url('./assets/1_drake_2.png');
 }
 
-.ludwig {
+.taylor {
   background-image: url('./assets/2_taylor_2.png');
 }
 
-.ranboolive {
+.bruno {
   background-image: url('./assets/3_bruno_2.png')
 }
 
-.shroud {
+.rihanna {
   background-image: url('./assets/4_Rihanna_2.png');
 }
 
-.summit {
+.adele {
   background-image: url('./assets/5_Adele_2.png');
 }
 
-.xqc {
+.ed {
   background-image: url('./assets/6_Ed_2.png');
 }
 
-.trymacs {
+.justin {
   background-image: url('./assets/7_justin_2.png');
 }
 
-.nickmercs {
+.katy {
   background-image: url('./assets/8_katy_2.png');
 }
 
-.tfue {
+.maroon {
   background-image: url('./assets/9_maroon_2.png');
-  outline: none;
-  border: none;
 }
 
-.hasanabi {
+.post {
   background-image: url('./assets/10_post_2.png');
-  outline: none;
-  border: none;
-}
-
-
-
-
 }
