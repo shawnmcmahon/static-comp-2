@@ -1,3 +1,4 @@
+
 # Static Comp 2
 
 ## Description
@@ -25,7 +26,11 @@ type 'Open index.html'
 [https://shawnmcmahon.github.io/static-comp-2/]
 
 ## Desktop View
+<img width="1279" alt="Screen Shot 2021-05-30 at 2 18 55 PM" src="https://user-images.githubusercontent.com/73731359/120118966-6ae7fe80-c152-11eb-846d-6bb3a05d7da5.png">
 
 ## Mobile View
+<img width="457" alt="Screen Shot 2021-05-30 at 2 19 29 PM" src="https://user-images.githubusercontent.com/73731359/120118973-763b2a00-c152-11eb-9a89-599a3266f496.png">
+
 
 ## Original Comp
+<img width="958" alt="Screen Shot 2021-05-30 at 2 20 21 PM" src="https://user-images.githubusercontent.com/73731359/120118976-7a674780-c152-11eb-9052-3244b62be8d7.png">
