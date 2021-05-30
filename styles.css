@@ -49,6 +49,12 @@ p {
   margin: 3px;
 }
 
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+
 section {
   border: none;
   display: flex;
@@ -106,7 +112,7 @@ section {
   flex-direction: column;
   margin-bottom: 0px;
   margin-right: 10px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .position {
@@ -244,6 +250,12 @@ section {
   padding-top: 3px;
 }
 
+.arrow {
+  margin: 0px;
+  width: 25px;
+  height: 25px;
+}
+
 .drake {
   background-image: url('./assets/1_drake_2.png');
 }
@@ -306,12 +318,10 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  outline: none;
 }
 
 button {
   border: none;
-  outline: none;
 }
 
 
@@ -320,7 +330,6 @@ header {
   border: none;
   display: flex;
   height: 125px;
-  outline: none;
   width: 100%;
 }
 
@@ -336,12 +345,17 @@ p {
   margin: 3px;
 }
 
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+
 section {
   border: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  outline: none;
 }
 
 .logo-image {
@@ -394,7 +408,7 @@ section {
   flex-direction: column;
   margin-bottom: 0px;
   margin-right: 10px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .position {
@@ -507,7 +521,6 @@ section {
   margin: 5px;
   width: auto;
 }
-
 
 
 .url {
