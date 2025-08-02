@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel='stylesheet' href='./styles.css'>
-  <meta chart="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
   <body>
     <main>
       <header>
         <nav>
-          <img class="menu-button" src="./assets/music_note.png">
+          <img class="menu-button" src="./assets/music_note.png" alt="Music note icon" loading="lazy">
           <button class="nav-text-all-time"> ARTISTS OF THE DECADE</button>
-          <img class="menu-button" src="./assets/white_list.png">
+          <img class="menu-button" src="./assets/white_list.png" alt="List icon" loading="lazy">
           <button class="nav-text">HOT 100 SONGS</button>
-          <img class="menu-button" src="./assets/white_user.png">
+          <img class="menu-button" src="./assets/white_user.png" alt="User icon" loading="lazy">
           <button class="nav-text">ARTIST 100</button>
         </nav>
         <nav class="nav-right">
           <p class="user-menu">
-          <img class="account-icon" src="./assets/white_account.png">
+          <img class="account-icon" src="./assets/white_account.png" alt="Account icon" loading="lazy">
           Admin Username ⌄</p>
-          <img class="logo-image" src="./assets/billboard_logo.png">
+          <img class="logo-image" src="./assets/billboard_logo.png" alt="Billboard logo" loading="lazy">
         </nav>
       </header>
       <div class="label-container">
-        <h1 class="billboard-label">Billboard Top 10 Artists of the 2010's</p>
+        <h1 class="billboard-label">Billboard Top 10 Artists of the 2010's</h1>
       </div>
       <section class ="background">
-        <a href="https://www.billboard.com/music/drake" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/drake" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card" tabindex="0">
           <section class="card-header drake">
               <p class="position-label">Number</p>
               <p class="position">01</p>
           </section>
             <p class="artist-name" aria-label="artist name">Drake</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/drake</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">233</p>
@@ -46,16 +52,15 @@
             <p class="artist-100-count">360</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/taylor-swift" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/taylor-swift" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header taylor">
               <p class="position-label">Number</p>
               <p class="position">02</p>
           </section>
             <p class="artist-name" aria-label="artist name">Taylor Swift</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/taylor-swift</p>
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">136</p>
@@ -63,16 +68,16 @@
             <p class="artist-100-count">356</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/bruno-mars" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/bruno-mars" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header bruno">
               <p class="position-label">Number</p>
               <p class="position">03</p>
           </section>
             <p class="artist-name" aria-label="artist name">Bruno Mars</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/bruno-mars</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">26</p>
@@ -80,16 +85,16 @@
             <p class="artist-100-count">338</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/rihanna" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/rihanna" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header rihanna">
               <p class="position-label">Number</p>
               <p class="position">04</p>
           </section>
             <p class="artist-name" aria-label="artist name">Rihanna</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/rihanna</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">62</p>
@@ -97,16 +102,16 @@
             <p class="artist-100-count">234</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/adele" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/adele" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header adele">
               <p class="position-label">Number</p>
               <p class="position">05</p>
           </section>
             <p class="artist-name" aria-label="artist name">Adele</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/adele</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">13</p>
@@ -114,16 +119,16 @@
             <p class="artist-100-count">253</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/ed-sheeran" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/ed-sheeran" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header ed">
               <p class="position-label">Number</p>
               <p class="position">06</p>
           </section>
             <p class="artist-name" aria-label="artist name">Ed Sheeran</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/ed-sheeran</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">39</p>
@@ -131,16 +136,16 @@
             <p class="artist-100-count">353</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/justin-bieber" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/justin-bieber" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header justin">
               <p class="position-label">Number</p>
               <p class="position">07</p>
           </section>
             <p class="artist-name" aria-label="artist name">Justin Bieber</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/justin-bieber</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">99</p>
@@ -148,16 +153,16 @@
             <p class="artist-100-count">326</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/katy-perry" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/katy-perry" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header katy">
               <p class="position-label">Number</p>
               <p class="position">08</p>
           </section>
             <p class="artist-name" aria-label="artist name">Katy Perry</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/katy-perry</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">34</p>
@@ -165,16 +170,16 @@
             <p class="artist-100-count">220</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/maroon-5" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/maroon-5" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header maroon">
               <p class="position-label">Number</p>
               <p class="position">09</p>
           </section>
             <p class="artist-name" aria-label="artist name">Maroon 5</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/maroon-5</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">32</p>
@@ -182,16 +187,16 @@
             <p class="artist-100-count">354</p>
         </article>
         </a>
-        <a href="https://www.billboard.com/music/post-malone" style="text-decoration:none">
+        <a href="https://www.billboard.com/music/post-malone" rel="noopener noreferrer" target="_blank" style="text-decoration:none">
         <article class="card">
           <section class="card-header post">
               <p class="position-label">Number</p>
               <p class="position">10</p>
           </section>
             <p class="artist-name" aria-label="artist name">Post Malone</p>
-            <p class="date-achieved">Sunday 05/23/2021 7:00pm</p>
+
           <section class="card-url">
-            <p class="url" aria-label="Link to Artist's billboard web page">https://www.billboard.com/music/post-malone</p>
+
           </section>
             <p class="hot-song">Hot 100 Songs</p>
             <p class="hot-song-count">52</p>

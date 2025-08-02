@@ -71,16 +71,10 @@ section {
 }
 
 .artist-name {
-  font-size: 16px;
+  font-size: 24px;
   padding-left: 10px;
   padding-top: 10px;
-}
-
-.date-achieved {
-  font-size: 10px;
-  margin-top: 0px;
-  padding-bottom: 15px;
-  padding-left: 10px;
+  color: #6BDDDD;
 }
 
 .hot-song,
@@ -129,6 +123,11 @@ section {
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
+  justify-content: center;
+  max-width: 1350px;
+  margin: 0 auto;
+  gap: 15px;
+  padding: 20px;
 }
 
 .card {
@@ -137,8 +136,9 @@ section {
   color: grey;
   display: flex;
   filter: drop-shadow(1px 1px 1px gray);
-  margin: 5px;
-  width: 250px;
+  width: calc(20% - 16px);
+  min-width: 250px;
+  max-width: 250px;
 }
 
 .card:hover {
@@ -147,24 +147,25 @@ section {
   color: grey;
   display: flex;
   filter: drop-shadow(1px 1px 1px gray);
-  margin: 5px;
   opacity: 0.4;
-  width: 250px;
+  width: calc(20% - 16px);
+  min-width: 250px;
+  max-width: 250px;
 }
 
 .card-header {
-  align-self: flex-start;
+  align-self: stretch;
   border-color: red;
   display: flex;
   flex-direction: column;
   height: 100px;
-  width: 250px;
+  width: 100%;
   filter: brightness(70%);
 }
 
 .card-url {
   align-self: center;
-  background-color: white;
+  background-color: #F2F2F3;
   color: grey;
   font-size: 12px;
   height: 40px;
@@ -175,8 +176,10 @@ section {
 
 .label-container {
   height: 100px;
-  width: auto;
-
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-right {
@@ -216,6 +219,8 @@ section {
   flex-direction: column;
   font-size: 36px;
   padding-top: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 .menu-button {
@@ -245,10 +250,6 @@ section {
   margin-right: 10px;
 }
 
-.url {
-  padding-left: 3px;
-  padding-top: 3px;
-}
 
 .arrow {
   margin: 0px;
@@ -299,7 +300,34 @@ section {
 
 
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1350px) {
+  .background {
+    max-width: 1080px;
+  }
+  .card, .card:hover {
+    width: calc(25% - 12px);
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .background {
+    max-width: 810px;
+  }
+  .card, .card:hover {
+    width: calc(33.33% - 10px);
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .background {
+    max-width: 540px;
+  }
+  .card, .card:hover {
+    width: calc(50% - 8px);
+  }
+}
+
+@media screen and (max-width: 540px) {
 
 html,
 body
@@ -367,16 +395,10 @@ section {
 
 
 .artist-name {
-  font-size: 16px;
+  font-size: 24px;
   padding-left: 10px;
   padding-top: 10px;
-}
-
-.date-achieved {
-  font-size: 10px;
-  margin-top: 0px;
-  padding-bottom: 15px;
-  padding-left: 10px;
+  color: #6BDDDD;
 }
 
 .hot-song,
@@ -418,13 +440,18 @@ section {
 }
 
 .background {
-  align-items: flex-start;
+  align-items: center;
   background-color: white;
   color: grey;
   flex-direction: row;
   flex-wrap: wrap;
   height: 100%;
   width: 100%;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 40px;
+  padding: 20px;
 }
 
 
@@ -434,8 +461,9 @@ section {
   color: grey;
   display: flex;
   filter: drop-shadow(1px 1px 1px gray);
-  margin: 5px;
-  width: 250px;
+  width: calc(50% - 20px);
+  min-width: 250px;
+  max-width: 400px;
 }
 
 .card:hover {
@@ -444,9 +472,10 @@ section {
   color: grey;
   display: flex;
   filter: drop-shadow(1px 1px 1px gray);
-  margin: 5px;
   opacity: 0.5;
-  width: 250px;
+  width: calc(50% - 20px);
+  min-width: 250px;
+  max-width: 400px;
 }
 
 .card-header {
@@ -461,7 +490,7 @@ section {
 
 .card-url {
   align-self: center;
-  background-color: white;
+  background-color: #F2F2F3;
   color: grey;
   font-size: 12px;
   height: 40px;
@@ -523,10 +552,6 @@ section {
 }
 
 
-.url {
-  padding-left: 3px;
-  padding-top: 3px;
-}
 
 .drake {
   background-image: url('./assets/1_drake_2.png');

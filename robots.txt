@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow access to sensitive files
+Disallow: /.htaccess
+Disallow: /.htpasswd
+Disallow: /.DS_Store
+Disallow: /security.txt
+Disallow: /assets/
+
+# Sitemap location (if you have one)
+# Sitemap: https://example.com/sitemap.xml 

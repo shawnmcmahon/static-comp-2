@@ -17,6 +17,17 @@ type 'Open index.html'
 - HTML/CSS
 - Normalize.css
 
+## Security Features
+- Content Security Policy (CSP) headers
+- XSS Protection headers
+- Clickjacking protection (X-Frame-Options)
+- MIME type sniffing protection
+- Secure external link handling (rel="noopener noreferrer")
+- Alt attributes on all images for accessibility
+- Proper HTML validation
+- Security.txt for responsible disclosure
+- Robots.txt for search engine control
+
 ## Contributors
 - Shawn McMahon
 - Jim Charnesky
